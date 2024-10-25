@@ -19,7 +19,7 @@ function App() {
       <div className="max-w-lg mx-auto bg-slate-100 rounded-md p-5 space-y-6">
         <AddTodoForm onSubmit={addTodo} />
         <TodoList
-          todos={todos}
+          todos={todos} 
           onCompletedChange={setTodoCompleted}
           onItemDelete={deleteTodo}
         />

@@ -2,7 +2,7 @@ import { Todo } from "../types/todo";
 import TodoItem from "./TodoItem";
 
 interface TodoListProps {
-    todos: Todo;
+    todos: Todo[];
     onCompletedChange: (id: number, completed: boolean) => void,
     onItemDelete: (id: number) => void
 }
